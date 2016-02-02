@@ -39,6 +39,15 @@ public class Attacks {
 			return 1;
 		}
 	}
+	public boolean Critical(){
+		int check=new Random().nextInt(99);
+		if(check==3){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
 	
 	
 	
