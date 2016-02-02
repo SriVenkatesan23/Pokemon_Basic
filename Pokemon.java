@@ -18,7 +18,6 @@ public Pokemon(String newName, String newType,  Attacks n1, Attacks n2, double H
 			a2=n2;
 			hp=HP;
 
-
 		}
 
 public String getType(){
